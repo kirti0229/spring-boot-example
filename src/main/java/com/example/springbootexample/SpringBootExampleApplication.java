@@ -23,9 +23,9 @@ public class SpringBootExampleApplication {
     public String task(@RequestParam String fname,@RequestParam (required = false)String mname,@RequestParam String lname ) {
         String goodName = "";
         if (mname==""){
-            goodName = fname.concat(" ").concat(lname);
+            goodName = Character.toString(fname.charAt(0)).concat(" ").concat(lname);
         }else{
-           goodName = fname.concat(" ").concat(mname).concat(" ").concat(lname);
+           goodName = Character.toString(fname.charAt(0)).concat(" ").concat(Character.toString(mname.charAt(0))).concat(" ").concat(lname);
         }
 
         return String.format( goodName.toUpperCase());

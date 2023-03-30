@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="359b8fd0-7c11-4d47-82f6-a770b5f0abf0" name="Changes" comment="" />
+    <list default="true" id="359b8fd0-7c11-4d47-82f6-a770b5f0abf0" name="Changes" comment="my first git commit change change">
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/springbootexample/SpringBootExampleApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springbootexample/SpringBootExampleApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springbootexample/SpringBootExampleApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -19,11 +27,6 @@
         <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2NRxIlgPfHjngzyZSj6mQhOMb5e" />
@@ -82,6 +85,34 @@
       <option name="presentableId" value="Default" />
       <updated>1679640626308</updated>
     </task>
+    <task id="LOCAL-00001" summary="my first git commit">
+      <created>1679673477216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679673477216</updated>
+    </task>
+    <task id="LOCAL-00002" summary="my first git commit">
+      <created>1679673728141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679673728141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="my first git commit change">
+      <created>1679720368441</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679720368441</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first git commit" />
+    <MESSAGE value="my first git commit change" />
+    <MESSAGE value="my first git commit change change" />
+    <option name="LAST_COMMIT_MESSAGE" value="my first git commit change change" />
   </component>
 </project>
