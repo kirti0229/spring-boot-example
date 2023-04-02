@@ -1,0 +1,39 @@
+      // read image from folder
+//        File folderInput = new File("/tmp/duke.png");
+//        BufferedImage folderImage = ImageIO.read(folderInput);
+//
+//        // read image from url
+//        URL urlInput = new URL("https://memorynotfound.com/wp-content/uploads/java-duke.png");
+//        BufferedImage urlImage = ImageIO.read(urlInput);
+//
+//        // read image from class-path
+//        File classPathInput = new File(ReadImageExample.class.getResource("duke.png").getFile());
+//        BufferedImage classpathImage = ImageIO.read(classPathInput);
+//
+//        // read image from inputstream
+//        InputStream isInput = new FileInputStream("/tmp/duke.png");
+//        BufferedImage inputStreamImage = ImageIO.read(isInput);
+
+//        var imgFile = new ClassPathResource(filePath);
+//        Image image = null;
+//        URL url = new URL("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fflowers%2F&psig=AOvVaw1_WzjR2d1TAm6njZuBrw5e&ust=1680504878737000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMiWm9TOiv4CFQAAAAAdAAAAABAE");
+
+//        File file = new File(filePath);
+//        BufferedImage img = ImageIO.read(new File(filePath));
+//        System.out.println(img);
+//        if(file.exists()) {
+//            String contentType = "images/png";
+//            response.setContentType(contentType);
+//            ByteArrayOutputStream bos = new ByteArrayOutputStream();
+//            ImageIO.write(img, "png", bos );
+//            response.getOutputStream().write(bos.toByteArray());
+//            FileInputStream in = new FileInputStream(file);
+//
+//            // copy from in to out
+////            IOUtils.copy(in, response.getOutputStream());
+//            response.getOutputStream();
+//            in.close();
+
+//        }else {
+//            throw new FileNotFoundException();
+//        }
